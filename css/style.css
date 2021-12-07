@@ -1210,22 +1210,13 @@ footer {
         animation-name: none;
     }
 
-    .flip-card:hover .flip-card,
-    .flip-card:focus-within .flip-card,
-    .flip-card:active .flip-card,
-    .flip-card:focus .flip-card {
-        transform:rotateY(0deg);   
-        transform: none; 
-        transition: none;    
-    } 
-
-    /* .flip-card {
+    .flip-card {
         display: none;
     }
 
     .not-flip-card {
         display: block;
-    } */
+    }
 
     .mia {
         animation-name: none;
