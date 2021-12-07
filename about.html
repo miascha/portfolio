@@ -14,7 +14,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Trirong:wght@900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
- 
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZN1NE1DQQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VZN1NE1DQQ');
+    </script>
+
     <title>About</title>
   </head>
   <body>
@@ -31,9 +41,8 @@
           <li><a href="about.html" class="current">ABOUT</a></li>
           <li><a href="dp1.html">HAPPYLIVING</a></li>
           <li><a href="greyhome.html">GREYHOME PARTNERS</a></li>
+          <li><a href="dp2.html">CHOW</a></li>
           <li><a href="resume.html">RESUMÉ</a></li>
-          <!-- <li><a href="https://drive.google.com/file/d/1i8fm99RRG4NItjY819dkUyemfQZWgliC/view?usp=sharing">RESUMÉ</a></li> -->
-          <!-- <li><a href="projects.html">PROJECTS</a></li> -->
         </ul>
       </div>
     </nav>
@@ -44,13 +53,12 @@
           <li><a href="index.html">WELCOME</a></li>
           <li><a href="about.html" class="current">ABOUT</a></li>
           <li><a href="resume.html">RESUMÉ</a></li>
-          <!-- <li><a href="https://drive.google.com/file/d/1i8fm99RRG4NItjY819dkUyemfQZWgliC/view?usp=sharing">RESUMÉ</a></li> -->
           <li><div class="dropdown">
             <button class="dropbtn">PROJECTS</button>
             <div class="dropdown-content">
-                <a href="dp1.html">HAPPYLIVING</a>
+                <a href="dp1.html">HappyLiving</a>
                 <a href="greyhome.html">Greyhome Partners</a>
-                <!-- <a href="dp2.html">Digital Product Design Project 2</a> -->
+                <a href="dp2.html">CHOW</a>
             </div>
           </li></div>
         </ul>
@@ -62,12 +70,9 @@
                 <h1 class="about-ipad">ABOUT</h1>
                     <p class="about-ipad"> I am a junior studying User Experience (UX) Design in the School of Information
                         and on the Cappo Sales Track through the Ross Business School at the University of Michigan.
-                        Through my coursework I have become experienced with Python, HTML, CSS, JavaScript,
-                        and SQLite, among others. This fall I am learning more about front-end programming 
-                        for web design using the POUR design principles of accessible 
-                        design. I am learning about digital product design using Sketch, InVision, Figma, and other
-                        industry-standard tools, as well as continuing to learn about data analysis and data manipulation
-                        using Python. 
+                        Through coursework I am experienced with Python, HTML, CSS, JavaScript, and SQL, and I am currently 
+                        studying front-end programming for web design using the POUR design principles of accessible design. 
+                        I am also familiar with Sketch, InVision, Figma, and other industry-standard design tools. 
                     </p><br>
                 <p id="about-ipad-change">On campus I'm involved in organizations such as Michigan Business Women, the Ross Retail Club, 
                     the Ross Sales Club, and Alpha Phi International Fraternity. <br>
@@ -80,7 +85,6 @@
                 </p>
             </header>
             <img class="headshot" src="../imgs/headshot.jpg" alt="Headshot of Mia Schaftel">
-            <img id="bighousefriends" src="../imgs/bighousefriends.jpg" alt="Girls in Michigan Stadium">
             <div class="courses">
                 <div class="umsi-courses">
                     <h2> Relevant Coursework: University of Michigan - School of Information (2021-Present)</h2>
@@ -93,7 +97,6 @@
                         <li><a href="https://www.si.umich.edu/programs/courses/364">SI364: Building Data Driven Applications</a></li>
                     </ul>
                 </div>
-                <br>
                 <div class="lsa-courses">
                     <h2> Relevant Coursework: University of Michigan - College of Literature, Science, and the Arts (2019-2021)</h2>
                     <ul>
@@ -105,7 +108,8 @@
                 </div>
             </div>
         </div>
-        <div class="connect-area">
+
+        <div class="connect-area not-flip-card">
             <h2>Contact Information</h2>
             <p>
                 Mia Schaftel, UMSI 2023<br>
@@ -115,9 +119,50 @@
                 LinkedIn: <a href="https://www.linkedin.com/in/miaschaftel/">linkedin.com/in/miaschaftel/</a>
             </p>
         </div>
+
+        <div class="flip-card connect-area">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h1>CONTACT INFORMATION</h1>
+              </div>
+              <div class="flip-card-back">
+                <h2>Contact Information</h2>
+                <p>
+                    Mia Schaftel, UMSI 2023<br>
+                    Phone: <a href="tel:2039795253">+1 (203) 979 5253</a> <br>
+                    E-mail: <a href="mailto:miaschaf@umich.edu">miaschaf@umich.edu</a> <br>
+                    Personal E-mail: <a href="mailto:meschaftel@gmail.com">meschaftel@gmail.com</a> <br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/miaschaftel/">linkedin.com/in/miaschaftel/</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        <div class="form">
+            <form action="https://formspree.io/f/xoqrqapw" method="POST">
+
+              <legend>Contact Form</legend>  
+          
+              <label for="name">Name</label>
+              <input type="text" id="name" name="fullname" placeholder="Your name...">
+
+              <label for="email">Email</label><br>
+              <input type="email" id="email" name="email" placeholder="Your email..."><br>
+          
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Provide a brief subject...">
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
   </main>
     <footer>
-        <div class="footer description">
+        <div class="footer">
             <p>Designed and implemented by Mia Schaftel <br>
             University of Michigan - School of Information Class of 2023 <br>
             © Mia Schaftel 2021</p>

@@ -15,10 +15,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Trirong:wght@900&display=swap" rel="stylesheet"> 
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface"> -->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZN1NE1DQQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VZN1NE1DQQ');
+    </script>
+
     <title>Mia Schaftel - UX Designer at the University of Michigan</title>
   </head>
+
   <body>
-    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class="skip"><a href="#home-main">Skip to Main Content</a></div>
     
     <nav class="navbar navbar-expand-sm visible-xs" id="mobile-screen-nav">
       <a href="index.html" class="mia">Mia Schaftel</a>
@@ -31,9 +42,8 @@
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="dp1.html">HAPPYLIVING</a></li>
           <li><a href="greyhome.html">GREYHOME PARTNERS</a></li>
+          <li><a href="dp2.html">CHOW</a></li>
           <li><a href="resume.html">RESUMÉ</a></li>
-          <!-- <li><a href="https://drive.google.com/file/d/1i8fm99RRG4NItjY819dkUyemfQZWgliC/view?usp=sharing">RESUMÉ</a></li> -->
-          <!-- <li><a href="projects.html">PROJECTS</a></li> -->
         </ul>
       </div>
     </nav>
@@ -44,13 +54,12 @@
           <li><a href="index.html" class="current">WELCOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="resume.html">RESUMÉ</a></li>
-          <!-- <li><a href="https://drive.google.com/file/d/1i8fm99RRG4NItjY819dkUyemfQZWgliC/view?usp=sharing">RESUMÉ</a></li> -->
           <li><div class="dropdown">
             <button class="dropbtn">PROJECTS</button>
             <div class="dropdown-content">
-                <a href="dp1.html">HAPPYLIVING</a>
+                <a href="dp1.html">HappyLiving</a>
                 <a href="greyhome.html">Greyhome Partners</a>
-                <!-- <a href="dp2.html">Digital Product Design Project 2</a> -->
+                <a href="dp2.html">CHOW</a>
             </div>
           </li></div>
         </ul>
@@ -58,12 +67,12 @@
 
 
 
-    <main class="container">
+    <main class="home-container">
       
-        <header id="main">
+        <header id="home-main">
             <h1>WELCOME</h1>
                 <p>Hi, my name is Mia Schaftel. I am a junior at the University of Michigan
-                studying User Experience Design in the School of Information. I love
+                studying User Experience Design in the School of Information. I enjoy
                 solving human-centered problems and creating visually stunning interfaces 
                 that emphasize usability and accessibility. This is my work in work-in-progress 
                 portfolio. Please excuse any errors in the meantime!</p>
@@ -79,7 +88,7 @@
                   <a href="dp1.html" id="dp1-grid">
                     <img src="imgs/HLPrototype.jpg" alt="HAPPYLIVING Project Prototype Mockup"/>
                   </a>
-                  <a href="dp1.html" id="dp1-text">HAPPYLIVING</a>
+                  <a href="dp1.html" id="dp1-text">HappyLiving</a>
               </div>
 
               <div class="ghp-grid-item">
@@ -89,19 +98,20 @@
                   <a href="greyhome.html" id="ghp-text">Greyhome Partners</a>
               </div>
 
-              <!-- <div class="dp2-grid-item">
+              <div class="dp2-grid-item">
                 <a href="dp2.html" id="dp2-grid">
-                  <img src="imgs/placeholder.jpg" alt="Design Project 2 Prototype Mockup"/>
+                  <img src="imgs/CPrototype.jpg" alt="Chow Project Prototype Mockup"/>
                 </a>
-                <a href="dp2.html"id="dp2-text">Design Project 2</a>
-              </div> -->
+                <a href="dp2.html"id="dp2-text">Chow (Work in Progress)</a>
+              </div>
               
             </div>
         </div>
+        <div class="parallax"></div>
         
   </main>
     <footer>
-        <div class="footer-description">
+        <div class="footer">
             <p>Designed and implemented by Mia Schaftel <br>
             University of Michigan - School of Information Class of 2023 <br>
             © 2021 Mia Schaftel</p>
