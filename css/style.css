@@ -527,7 +527,7 @@ input[type=text], select, textarea, input[type=email] {
     margin-left: 1em;
 }
 
-.prototype div{
+/* .prototype div{
     margin-left: 47px;
     margin-right: 30px;
 }
@@ -540,7 +540,7 @@ input[type=text], select, textarea, input[type=email] {
     margin: auto;
     display: block;
     margin-bottom: 40px;
-}
+} */
 
 /* GHP PAGE CSS */
 
@@ -946,9 +946,9 @@ footer {
         width: 200px;
     }
 
-    .prototype div{
+    /* .prototype div{
         margin-left: 100px;
-    }
+    } */
 
     /* GHP PAGE CSS */
 
